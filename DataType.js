@@ -9,7 +9,7 @@
 
 
 //=====DataType String=====//
-let fullName = "Abdullah Salman"
+let fullName = "Abdullah Salman";
 //=====DataType Number=====//
 let isAge = 17;
 let isNumber = 17.6;
@@ -22,15 +22,20 @@ let isNull = null;
 //=====DataType BigInt=====//
 let isInt = BigInt(123333);
 //=====DataType Symbol=====//
-let isSymbol = Symbol ("Hello!");
+let isSymbol = Symbol("Hello!");
 
+// =====Non-Primitive Data Type 2=====//
+// 1. Array
+// 2. Functions
 
 // =====Object===== //
 
-// let Student = {
-//    name: "Salman",
-//    age: 19,
-//    CPGa: 3.5,
-//    isPass: true,
-// };
+const Student = {
+   name: "Salman",
+   age: 19,
+   CPGa: 3.5,
+   isPass: true,
+};
+
+// Student["age"] = 20;
 // console.log(Student ["age"]);

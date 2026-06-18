@@ -1,3 +1,5 @@
+alert("Welcome to My Website! ❣❣❣");     
+
 let num1 = Number(prompt("Enter first number:"));
 let num2 = Number(prompt("Enter second number:"));
 
@@ -18,7 +20,7 @@ else if (operator == "/") {
     result = num1 / num2;
 }
 else {
-    result = "Invalid Operator";
+    result = "This operater can't in my calculation history";
 }
 
 console.log("Result = " + result);
