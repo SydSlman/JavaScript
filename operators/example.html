@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Change</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial;
+            padding-top: 100px;
+            transition: 0.5s;
+        }
+
+        button {
+            padding: 10px 25px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+</head>
+
+<body>
+    <h1>Background Changer</h1>
+    <button onclick="changeBg()">Change Background</button>
+</body>
+<script>
+    let status = "white";
+    function changeBg() {
+        if (status == "white") {
+            document.body.style.background = "black";
+            document.body.style.color = "white";
+            status = "black";
+        }
+        else {
+            document.body.style.background = "white";
+            document.body.style.color = "black";
+            status = "white";
+        }
+    }
+</script>
+
+</html>
