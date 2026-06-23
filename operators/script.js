@@ -84,6 +84,6 @@ let b = 2;
 
 let C1  = a > b; //(True)
 let C2 = a == b; //(False)
-console.log("C1 && C2 =", C1 && C2); // (Both Value is true then answer is True)
-console.log("C1 || C2 =", C1 || C2); // (Both Value is false then answer is False)
-console.log("!(a > b)", !(a > b)); //(Exchange the value true to false & false to true)
+// console.log("C1 && C2 =", C1 && C2); // (Both Value is true then answer is True)
+// console.log("C1 || C2 =", C1 || C2); // (Both Value is false then answer is False)
+// console.log("!(a > b)", !(a > b)); //(Exchange the value true to false & false to true)
