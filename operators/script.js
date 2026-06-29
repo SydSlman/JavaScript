@@ -87,3 +87,26 @@ let C2 = a == b; //(False)
 // console.log("C1 && C2 =", C1 && C2); // (Both Value is true then answer is True)
 // console.log("C1 || C2 =", C1 || C2); // (Both Value is false then answer is False)
 // console.log("!(a > b)", !(a > b)); //(Exchange the value true to false & false to true)
+
+// =====Ternary Operator===== //
+
+// =====Switch Operator===== //
+
+// const expr = "Mango";
+// switch (expr) {
+//     case "Banana":
+//         console.log("Banana are $0.89 a dollar.");
+//         break;
+
+//     case "Mango":
+//         console.log("Mango are $0.99 a dollar.");
+//         break;
+
+//     case "Orange":
+//         console.log("Orange are $0.89 a dollar.");
+//         break;
+
+//     default:
+//         console.log("Sorry you are out of range 0f $(expr).");
+//         break;
+// }

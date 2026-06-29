@@ -44,8 +44,10 @@ let color;
 
 
 // =====IF-ELSE-IF Condition===== //
-if (mood === "light"){
-    color = "white";
-} else if (mood === "dark"){
-    color = "black";
-}
+// if (mood === "light"){
+//     color = "white";
+// } else if (mood === "dark"){
+//     color = "black";
+// }
+
+// =====IF-ELSE-IF Condition===== //
